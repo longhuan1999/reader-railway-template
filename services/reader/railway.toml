@@ -1,0 +1,12 @@
+[build]
+# 镜像说明（三选一）：
+#   标准版 (161MB)：Amazon Corretto JRE，通用场景首选，兼容性最好
+#   Slim版 (256MB)：jlink 定制 JRE，仅含必要模块
+#   OpenJ9版 (616MB)：IBM Semeru JRE，启动快、运行时内存低，适合 ARM64 或小内存服务器
+#image = "changshengyu/reader:latest"
+#image = "changshengyu/reader:slim-latest"
+image = "changshengyu/reader:openj9-latest"
+
+[deploy]
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 10
