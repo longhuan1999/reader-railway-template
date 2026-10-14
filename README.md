@@ -1,6 +1,8 @@
 # reader-railway-template
 Railway template of reader
 
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/L8dvv7?referralCode=JrUwev&utm_medium=integration&utm_source=template&utm_campaign=generic)
+
 ## 环境变量
 
 ```
